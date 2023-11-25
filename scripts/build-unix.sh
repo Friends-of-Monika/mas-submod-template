@@ -8,7 +8,7 @@
 # CLI -header parameter
 while [ "$#" -gt 0 ]; do
     case "$1" in
-        -h|-header)
+        -h|--header)
             shift
             Header="$1"
             break
@@ -53,7 +53,7 @@ if [ -z "$Header" ]; then
     HeaderCount="$(echo "$Headers" | wc -l)"
     if [ "$HeaderCount" -gt 1 ]; then
         echo "Cannot build submod! Found too many valid header files."
-        echo "Run this script with -Header parameter instead."
+        echo "Run this script with --header parameter instead."
         exit 2
     fi
 
