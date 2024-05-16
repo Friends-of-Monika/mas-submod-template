@@ -9,7 +9,7 @@
 #
 #   OR
 #
-#   $ python find_header.py hedaer <path to .rpy file>
+#   $ python find_header.py header <path to .rpy file>
 #     - looks for header structure in just one file and prints it out
 #
 # Output format:
