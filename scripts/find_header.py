@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#pylint: skip-file
 
 # This script performs simple submod header detection in RenPy scripts
 # which is expected to change in the upcoming Submod Framework overhaul.
