@@ -74,7 +74,7 @@
 
 1. Go to [the latest release page](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
    and scroll to Assets section.
-2. Download `your-submod-name-VERSION.zip` file.
+2. Download `YOUR_SUBMOD_NAME-VERSION.zip` file.
 3. Drag and drop `game/` folder from it into your DDLC folder. <br>
    **NOTE:** make sure you don't drag it *into `game`*!
 4. You're all set!~
@@ -93,4 +93,4 @@ We thank the following people for helping this submod get released!
 We're up to chat! Join our Discord server
 [here][https://discord.gg/YOUR_DISCORD_INVITE_CODE].
 
-[![Discord server invitation][https://discordapp.com/api/guilds/1029849988953546802/widget.png?style=banner3]][https://discord.gg/YOUR_DISCORD_INVITE_CODE]
+[![Discord server invitation][https://discordapp.com/api/guilds/YOUR_DISCORD_SERVER_ID/widget.png?style=banner3]][https://discord.gg/YOUR_DISCORD_INVITE_CODE]
