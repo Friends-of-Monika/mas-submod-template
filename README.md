@@ -22,10 +22,18 @@
 	<a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases">
 		<img alt="Release downloads" src="https://img.shields.io/github/downloads/YOUR_USERNAME/YOUR_REPO_NAME/total">
 	</a>
+	<!-- r/MASFandom upvotes counter. -->
+	<!-- To set it up, copy your Reddit post link (it will look like https://www.reddit.com/r/MASFandom/comments/xxxxxx/xxxxxx)
+		 and paste it in this encoder: https://www.urlencoder.org/; copy URL-encoded text and replace
+		 YOUR_REDDIT_POST_ENCODED_URL below with it. Additionally, replace YOUR_REDDIT_POST_PLAIN_URL with
+		 actual post URL as you copied it (unencoded.) -->
+	<!-- <a href="YOUR_REDDIT_POST_PLAIN_URL">
+		<img alt="Reddit badge" src="https://img.shields.io/badge/dynamic/json?label=%F0%9D%97%8B%2Fmasfandom%20post&query=%24[0].data.children[0].data.score&suffix=%20upvotes&url=YOUR_REDDIT_POST_ENCODED_URL.json&logo=reddit&style=social">
+	</a> -->
 	<!-- License of your submod. If you don't know what that is, you likely don't need it at all. -->
-	<a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/LICENSE.txt">
+	<!-- <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/LICENSE.txt">
 		<img alt="MIT license badge" src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO_NAME">
-	</a>
+	</a> -->
 	<!-- Your Discord server invite link & badge.
 		For the badge to display, go to your server settings > Widget > copy ID and replace
 		YOUR_DISCORD_SERVER_ID with it. -->
@@ -74,7 +82,9 @@
 
 1. Go to [the latest release page](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
    and scroll to Assets section.
-2. Download `YOUR_SUBMOD_NAME-VERSION.zip` file.
+
+<!-- Replace YOUR_SUBMOD_FILE_NAME with your submod file name you'll release. -->
+2. Download `YOUR_SUBMOD_FILE_NAME-VERSION.zip` file.
 3. Drag and drop `game/` folder from it into your DDLC folder. <br>
    **NOTE:** make sure you don't drag it *into `game`*!
 4. You're all set!~
@@ -93,4 +103,4 @@ We thank the following people for helping this submod get released!
 We're up to chat! Join our Discord server
 [here][https://discord.gg/YOUR_DISCORD_INVITE_CODE].
 
-[![Discord server invitation][https://discordapp.com/api/guilds/YOUR_DISCORD_SERVER_ID/widget.png?style=banner3]][https://discord.gg/YOUR_DISCORD_INVITE_CODE]
+[![Discord server invitation](https://discordapp.com/api/guilds/YOUR_DISCORD_SERVER_ID/widget.png?style=banner3)](https://discord.gg/YOUR_DISCORD_INVITE_CODE)
